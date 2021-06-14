@@ -11,7 +11,9 @@ Mammogram inspection in search of breast tumors is a tough assignment that radio
 
 + Dataset Folder
 
-Please put your image inside folder "a" and binary mask into "b" in both train and test folders.
+Datset path will follow the similar structure: Dataset/breast/train/a-b folders, Dataset/breast/test/a-b folders, 
+
+Please put your images inside folder "a" and binary mask into "b" in both train and test folders.
 
 + Train the model:
 
