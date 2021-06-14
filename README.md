@@ -10,6 +10,10 @@ Mammogram inspection in search of breast tumors is a tough assignment that radio
 + PyTorch
 + TorchVision
 
+**+ Clone this repo:**
+
+    cd breast_tumor_segmentation
+
 ## Dataset Folder
 
 + Dataset path will follow the structure: Dataset/breast/train/a-b folders, Dataset/breast/test/a-b folders, 
