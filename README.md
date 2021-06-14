@@ -9,17 +9,17 @@ Mammogram inspection in search of breast tumors is a tough assignment that radio
 + PyTorch
 + TorchVision
 
-+ Dataset Folder
+## Dataset Folder
 
-Datset path will follow the similar structure: Dataset/breast/train/a-b folders, Dataset/breast/test/a-b folders, 
++ Datset path will follow the similar structure: Dataset/breast/train/a-b folders, Dataset/breast/test/a-b folders, 
 
-Please put your images inside folder "a" and binary mask into "b" in both train and test folders.
++ Please put your images inside folder "a" and binary mask into "b" in both train and test folders.
 
-+ Train the model:
+## Train the model:
 
     python train --dataset breast --nEpochs 200 --cuda
 
-+ Test the model:
+## Test the model:
 
     python test.py --dataset breast --model checkpoint/breast/netG_model_epoch_200.pth --cuda
 
