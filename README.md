@@ -22,7 +22,7 @@ Mammogram inspection in search of breast tumors is a tough assignment that radio
 
 ## Train the model:
 
-    python train --dataset breast --nEpochs 200 --cuda
+    python train.py --dataset breast --nEpochs 200 --cuda
 
 ## Test the model:
 
